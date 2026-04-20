@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+}
+
+.counter {
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.incr-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.decr-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.reset-btn {
+    background-color: #ff9800;
+    color: white;
+}
