@@ -25,7 +25,7 @@ function Tip() {
             placeholder="Custom"
             value={customTip}
             onChange={e => {
-                setCustomTip(e.target.value);
+                setCustomTip(e.target.value); //update custom tip
                 setTipPercentage(0);  // clear preset when custom is entered
             }}
         />
